@@ -1,3 +1,4 @@
+import example.Employee
 import example.Person
 
 /**
@@ -5,8 +6,11 @@ import example.Person
  */
 
 fun main(args: Array<String>) {
-    val person = Person("Muhtarudin", "Siregar")
+    val udin = Person("Muhtarudin", "Siregar")
+    println(udin.fullName)
+    println(udin.greet())
 
-    println(person.fullName)
-    println(person.greet())
+    val rudy = Employee("Rudy", "Dwi", "Nyunmor")
+    println(rudy.fullName)
+    println(rudy.greet())
 }
