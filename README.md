@@ -1,3 +1,3 @@
 # Learn Kotlin
 
-Learn Kotline for better Android Development.
+Learn Kotlin for better Android Development.

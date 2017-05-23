@@ -5,6 +5,8 @@ import example.Person
  */
 
 fun main(args: Array<String>) {
-    val person = Person("Gejrot")
-    person.greet()
+    val person = Person("Muhtarudin", "Siregar")
+
+    println(person.fullName)
+    println(person.greet())
 }
