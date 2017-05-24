@@ -1,3 +1,4 @@
+import example.Book
 import example.Employee
 import example.Person
 
@@ -13,4 +14,8 @@ fun main(args: Array<String>) {
     val rudy = Employee("Rudy", "Dwi", "Nyunmor")
     println(rudy.fullName)
     println(rudy.greet())
+
+    val gajBook = Book("Mandenomaiya", 35.0)
+    println(gajBook.title)
+    println(gajBook.price)
 }
